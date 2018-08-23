@@ -33,29 +33,29 @@ The shopping `Cart` should have the following model:
 
 `itemQuantities()` should return one String for each type of item in the cart in the following format:
 
-```JavaScript
-[
+```Java
+{
     'Handbag - x2', 
     'Watch - x4'
-]
+}
 ``` 
 
 `itemizedList()` should return one String for each item in the cart in the following format:
 
 ```JavaScript
-[
+{
     'Handbag x1 - $500.00', 
     'Watch x2 - $40,000.00'
-]
+}
 ``` 
 
 `onSaleItems()` should return one String for each item in the cart marked as `onSale` in the following format:
 
-```JavaScript
-[
+```Java
+{
     'Handbag x1 - $250.00', 
     'Watch x2 - $20,000.00'
-]
+}
 ```
 
 ## TODO
